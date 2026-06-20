@@ -92,11 +92,11 @@ static constexpr uint8_t       BLE_CONNECT_TIMEOUT_SEC       = 5;
 
 /* ===== WEB PORTAL AUTH ===== */
 #define WEB_DEFAULT_USER "admin"
-#define WEB_DEFAULT_PASS "admin"
+#define WEB_DEFAULT_PASS "12345678"
 static constexpr unsigned long WEB_SESSION_TIMEOUT_MS = 600000UL;
 
 /* ===== OTA DEFAULTS (ArduinoOTA over WiFi AP) ===== */
-#define OTA_DEFAULT_PASSWORD    "admin"
+#define OTA_DEFAULT_PASSWORD    "12345678"
 
 /* ===== PUBLISH ===== */
 const uint8_t PUBLISH_BATCH_SIZE  = 3;

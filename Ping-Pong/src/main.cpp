@@ -235,7 +235,7 @@ void setup() {
   char ssid[24];
   snprintf(ssid, sizeof(ssid), "PingPong-Unit%u", MY_ID);
   WiFi.mode(WIFI_AP);
-  WiFi.softAP(ssid, "pingpong123");
+  WiFi.softAP(ssid, "12345678");
   Serial.printf("[WiFi] AP \"%s\"  http://%s\n", ssid, WiFi.softAPIP().toString().c_str());
 
   web.on("/", handleRoot);

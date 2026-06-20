@@ -38,4 +38,4 @@ plus `PingPong_bins.zip`). Built on Arduino-ESP32 core 2.0.x (`espressif32@6.9.0
 
 ## Monitor
 Each unit raises a WiFi AP `PingPong-Unit1` / `PingPong-Unit2` (password
-`pingpong123`). Connect and open `http://192.168.4.1` to see live status.
+`12345678`). Connect and open `http://192.168.4.1` to see live status.
